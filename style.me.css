@@ -83,12 +83,12 @@ padding: 0;}
     @media screen and (min-width: 900px) {
       article {
         display: grid;
-        grid-template-columns: 200px 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
         grid-template-areas:
-            ". a b"
-            ". c c"
-            ". d d";
+            "a b"
+            "c c"
+            "d d";
       }
 
     .section1 {
