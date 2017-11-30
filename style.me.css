@@ -55,13 +55,27 @@ padding: 0;}
     flex-flow: column;
   }
 
-
-
   .menu-trigger {
       order: 1;
       font-size: 1.75em;
       width: 2em;
   }
+
+  .map-wrapper {
+      overflow:hidden;
+      padding-bottom:56.25%;
+      position:relative;
+      height:0;
+  }
+
+  .map-wrapper iframe{
+      left:0;
+      top:0;
+      height:100%;
+      width:100%;
+      position:absolute;
+  }
+
 
   @media (min-width: 700px) {
     .nav ul {
